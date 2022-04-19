@@ -1,5 +1,7 @@
 # BestBid
 
+https://mern-project-humber.herokuapp.com/
+
 ## Project Description
 
 Online auctions offer buyers and sellers of a wide variety of goods an enormous platform for trade. They provide buyers with a virtual flea market, with an endless range of merchandise from around the world, and they give sellers a storefront from which to market everything from sports memorabilia to computer systems to millions of international buyers.
@@ -10,7 +12,7 @@ Internet auctions are like giant online flea markets. Sellers may offer one item
 
 ### Winning Bids
 
-The bidding for each auction closes at the scheduled time. In the case of sales of multiple lots, the participants with the highest bids at the close of the auction are obligated to buy the items. If no one bids at or above the reserve price, the auction closes without a winner. At the close of a successful auction, the buyer and seller communicate, usually by email, to arrange for payment and delivery of the goods.
+The bidding for each product closes after a gap in bidding time. In the case of sales of multiple lots, the participants with the highest bids at the close of the auction are obligated to buy the items. If no one bids at or above the reserve price, the auction closes without a winner. At the close of a successful auction, the buyer and seller communicate, usually by email, to arrange for payment and delivery of the goods.
 
 ## Targeted Audience and Objective
 

@@ -88,9 +88,6 @@ const Edit_Profile = () => {
   const updateProfilePicture = async (e) => {
     e.preventDefault();
     try {
-      const data = new FormData();
-      data.append("photo", picture);
-
       let token = localStorage.getItem("token");
 
       let config = {
@@ -99,10 +96,15 @@ const Edit_Profile = () => {
           "x-auth-token": token,
         },
       };
+
+      const data = new FormData();
+      data.append("photo", picture);
+
       const response = await axios.post(
-        process.env.REACT_APP_API_URL + "/api/user/uploadPicture",
-        config,
-        data
+        process.env.REACT_APP_API_URL +
+          `/api/user/uploadPicture/${decodeddata.user.id}`,
+        data,
+        config
       );
 
       // navigate("/profile");
